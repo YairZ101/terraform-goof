@@ -38,7 +38,7 @@ resource "aws_kms_key" "snyk_db_kms_key" {
   enable_key_rotation     = true
 
   tags = merge(var.default_tags, {
-    Name = "snyk_db_kms_key_${var.environment}"
+    Name = "snyk_db_kms_key_${var.environmen}"
   })
 }
 

@@ -11,7 +11,7 @@ resource "aws_default_security_group" "default" {
     from_port = 0
     to_port   = 0
   }
-}
+# }
 
 resource "aws_security_group" "allow_ssh" {
   name        = "allow_ssh"
